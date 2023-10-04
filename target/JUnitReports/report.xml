@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="34.47" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Verify if login is successful with valid credentials - Example #1.1" time="10.309">
+<system-out><![CDATA[
+Given User has opened swag labs browser.....................................passed
+And User has navigated to the login page....................................passed
+When User enters valid standard_user and secret_sauce.......................passed
+And User clicks on login button.............................................passed
+Then User should be able to see Product page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Verify if login is successful with valid credentials - Example #1.2" time="9.334">
+<system-out><![CDATA[
+Given User has opened swag labs browser.....................................passed
+And User has navigated to the login page....................................passed
+When User enters valid problem_user and secret_sauce........................passed
+And User clicks on login button.............................................passed
+Then User should be able to see Product page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Verify if login is un-successful with invalid credentials - Example #1.1" time="14.491">
+<system-out><![CDATA[
+Given User has opened swag labs browser.....................................passed
+And User has navigated to the login page....................................passed
+When User enters invalid coba and coba123...................................passed
+And User clicks on login button.............................................passed
+Then User should be able to see the error pop up message....................passed
+]]></system-out>
+</testcase>
+</testsuite>
